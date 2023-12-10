@@ -11,11 +11,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Neoncitylights-MediaType-MediaType.html#method___construct"
         },                {
-            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AnewFromString\u0028\u0029",
-            "name": "newFromString",
-            "summary": "",
-            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_newFromString"
-        },                {
             "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AgetType\u0028\u0029",
             "name": "getType",
             "summary": "Gives\u0020the\u0020first\u0020portion\u0020of\u0020a\u0020media\u0020type\u0027s\u0020essence.",
@@ -46,20 +41,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Neoncitylights-MediaType-MediaType.html#method___toString"
         },                {
-            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003ATOKEN_TYPE_SEPARATOR",
-            "name": "TOKEN_TYPE_SEPARATOR",
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AserializeParameterValue\u0028\u0029",
+            "name": "serializeParameterValue",
             "summary": "",
-            "url": "classes/Neoncitylights-MediaType-MediaType.html#constant_TOKEN_TYPE_SEPARATOR"
-        },                {
-            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003ATOKEN_DELIMETER",
-            "name": "TOKEN_DELIMETER",
-            "summary": "",
-            "url": "classes/Neoncitylights-MediaType-MediaType.html#constant_TOKEN_DELIMETER"
-        },                {
-            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003ATOKEN_EQUAL",
-            "name": "TOKEN_EQUAL",
-            "summary": "",
-            "url": "classes/Neoncitylights-MediaType-MediaType.html#constant_TOKEN_EQUAL"
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_serializeParameterValue"
         },                {
             "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003A\u0024type",
             "name": "type",
@@ -75,6 +60,41 @@ Search.appendIndex(
             "name": "parameters",
             "summary": "",
             "url": "classes/Neoncitylights-MediaType-MediaType.html#property_parameters"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaTypeParser",
+            "name": "MediaTypeParser",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaTypeParser.html"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaTypeParser\u003A\u003AparseOrNull\u0028\u0029",
+            "name": "parseOrNull",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaTypeParser.html#method_parseOrNull"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaTypeParser\u003A\u003Aparse\u0028\u0029",
+            "name": "parse",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaTypeParser.html#method_parse"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaTypeParser\u003A\u003AcollectType\u0028\u0029",
+            "name": "collectType",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaTypeParser.html#method_collectType"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaTypeParser\u003A\u003AcollectSubType\u0028\u0029",
+            "name": "collectSubType",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaTypeParser.html#method_collectSubType"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaTypeParser\u003A\u003AcollectParameters\u0028\u0029",
+            "name": "collectParameters",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaTypeParser.html#method_collectParameters"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaTypeParserException",
+            "name": "MediaTypeParserException",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaTypeParserException.html"
         },                {
             "fqsen": "\\",
             "name": "\\",
