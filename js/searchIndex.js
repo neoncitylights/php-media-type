@@ -36,6 +36,56 @@ Search.appendIndex(
             "summary": "Gives\u0020the\u0020value\u0020of\u0020a\u0020specified\u0020parameter\u0020of\u0020a\u0020media\u0020type,\nif\u0020that\u0020parameter\u0020exists\u003B\u0020otherwise,\u0020it\u0020will\u0020return\u0020a\u0020null\u0020value.",
             "url": "classes/Neoncitylights-MediaType-MediaType.html#method_getParameterValue"
         },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisImage\u0028\u0029",
+            "name": "isImage",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isImage"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisAudioOrVideo\u0028\u0029",
+            "name": "isAudioOrVideo",
+            "summary": "https\u003A\/\/mimesniff.spec.whatwg.org\/\u0023audio\u002Dor\u002Dvideo\u002Dmime\u002Dtype",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isAudioOrVideo"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisFont\u0028\u0029",
+            "name": "isFont",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isFont"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisZipBased\u0028\u0029",
+            "name": "isZipBased",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isZipBased"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisArchive\u0028\u0029",
+            "name": "isArchive",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isArchive"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisXml\u0028\u0029",
+            "name": "isXml",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isXml"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisHtml\u0028\u0029",
+            "name": "isHtml",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isHtml"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisScriptable\u0028\u0029",
+            "name": "isScriptable",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isScriptable"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisJavaScript\u0028\u0029",
+            "name": "isJavaScript",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isJavaScript"
+        },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisJson\u0028\u0029",
+            "name": "isJson",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isJson"
+        },                {
             "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003A__toString\u0028\u0029",
             "name": "__toString",
             "summary": "",
