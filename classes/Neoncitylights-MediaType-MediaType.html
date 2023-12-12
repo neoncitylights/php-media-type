@@ -199,23 +199,27 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/Neoncitylights-MediaType-MediaType.html#property_parameters">$parameters</a>
     <span>
                         &nbsp;: array&lt;string|int, string&gt;            </span>
 </dt>
+<dd>Gives an array of parameters of a media type,
+if any parameters exist. Otherwise, it will return an empty array.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/Neoncitylights-MediaType-MediaType.html#property_subType">$subType</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
+<dd>Gives the second portion of a media type&#039;s essence.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/Neoncitylights-MediaType-MediaType.html#property_type">$type</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
+<dd>Gives the first portion of a media type&#039;s essence.</dd>
 
     </dl>
 
@@ -245,34 +249,12 @@
 <dd>Gives the type and subtype of a media type.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getParameters">getParameters()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
-</dt>
-<dd>Gives an array of parameters of a media type,
-if any parameters exist. Otherwise, it will return an empty array.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getParameterValue">getParameterValue()</a>
     <span>
                                 &nbsp;: string|null    </span>
 </dt>
 <dd>Gives the value of a specified parameter of a media type,
 if that parameter exists; otherwise, it will return a null value.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getSubType">getSubType()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>Gives the second portion of a media type&#039;s essence.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getType">getType()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>Gives the first portion of a media type&#039;s essence.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Neoncitylights-MediaType-MediaType.html#method_isArchive">isArchive()</a>
@@ -359,27 +341,29 @@ if that parameter exists; otherwise, it will return a null value.</dd>
         class="
             phpdocumentor-element
             -property
-            -private
-                                                        "
+            -public
+                                                -read-only        "
 >
     <h4 class="phpdocumentor-element__name" id="property_parameters">
         $parameters
         <a href="classes/Neoncitylights-MediaType-MediaType.html#property_parameters" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.38" class="phpdocumentor-element-found-in__source" data-line="38" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Gives an array of parameters of a media type,
+if any parameters exist. Otherwise, it will return an empty array.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">array&lt;string|int, string&gt;</span>
     <span class="phpdocumentor-signature__name">$parameters</span>
     </code>
@@ -408,32 +392,35 @@ if that parameter exists; otherwise, it will return a null value.</dd>
         class="
             phpdocumentor-element
             -property
-            -private
-                                                        "
+            -public
+                                                -read-only        "
 >
     <h4 class="phpdocumentor-element__name" id="property_subType">
         $subType
         <a href="classes/Neoncitylights-MediaType-MediaType.html#property_subType" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.23" class="phpdocumentor-element-found-in__source" data-line="23" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.29" class="phpdocumentor-element-found-in__source" data-line="29" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Gives the second portion of a media type&#039;s essence.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$subType</span>
     </code>
 
-    
+        <section class="phpdocumentor-description"><p>e.g, if given 'text/plain', it will return 'plain'.</p>
+</section>
+
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -457,32 +444,35 @@ if that parameter exists; otherwise, it will return a null value.</dd>
         class="
             phpdocumentor-element
             -property
-            -private
-                                                        "
+            -public
+                                                -read-only        "
 >
     <h4 class="phpdocumentor-element__name" id="property_type">
         $type
         <a href="classes/Neoncitylights-MediaType-MediaType.html#property_type" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.17" class="phpdocumentor-element-found-in__source" data-line="17" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.20" class="phpdocumentor-element-found-in__source" data-line="20" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Gives the first portion of a media type&#039;s essence.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$type</span>
     </code>
 
-    
+        <section class="phpdocumentor-description"><p>e.g, if given 'text/plain', it will return 'text'.</p>
+</section>
+
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -524,9 +514,9 @@ if that parameter exists; otherwise, it will return a null value.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.36" class="phpdocumentor-element-found-in__source" data-line="36" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.45" class="phpdocumentor-element-found-in__source" data-line="45" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -580,9 +570,9 @@ if that parameter exists; otherwise, it will return a null value.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">222</span>
+    <span class="phpdocumentor-element-found-in__line">198</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.222" class="phpdocumentor-element-found-in__source" data-line="222" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.198" class="phpdocumentor-element-found-in__source" data-line="198" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -631,9 +621,9 @@ if that parameter exists; otherwise, it will return a null value.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.71" class="phpdocumentor-element-found-in__source" data-line="71" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.58" class="phpdocumentor-element-found-in__source" data-line="58" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Gives the type and subtype of a media type.</p>
@@ -677,59 +667,6 @@ if that parameter exists; otherwise, it will return a null value.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getParameters">
-        getParameters()
-        <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getParameters" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">82</span>
-
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.82" class="phpdocumentor-element-found-in__source" data-line="82" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
-    </aside>
-
-        <p class="phpdocumentor-summary">Gives an array of parameters of a media type,
-if any parameters exist. Otherwise, it will return an empty array.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getParameters</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getParameters#tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">see</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><a href="https://mimesniff.spec.whatwg.org/#parameters">https://mimesniff.spec.whatwg.org/#parameters</a></span>
-                                        
-                                             
-                                    </dd>
-                                            </dl>
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getParameterValue">
         getParameterValue()
         <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getParameterValue" class="headerlink"><i class="fas fa-link"></i></a>
@@ -738,9 +675,9 @@ if any parameters exist. Otherwise, it will return an empty array.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.95" class="phpdocumentor-element-found-in__source" data-line="95" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.71" class="phpdocumentor-element-found-in__source" data-line="71" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">Gives the value of a specified parameter of a media type,
@@ -781,114 +718,6 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getSubType">
-        getSubType()
-        <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getSubType" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">60</span>
-
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.60" class="phpdocumentor-element-found-in__source" data-line="60" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
-    </aside>
-
-        <p class="phpdocumentor-summary">Gives the second portion of a media type&#039;s essence.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getSubType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-        <section class="phpdocumentor-description"><p>e.g, if given 'text/plain', it will return 'plain'.</p>
-</section>
-
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getSubType#tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">see</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><a href="https://mimesniff.spec.whatwg.org/#subtype">https://mimesniff.spec.whatwg.org/#subtype</a></span>
-                                        
-                                             
-                                    </dd>
-                                            </dl>
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getType">
-        getType()
-        <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getType" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">49</span>
-
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.49" class="phpdocumentor-element-found-in__source" data-line="49" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
-    </aside>
-
-        <p class="phpdocumentor-summary">Gives the first portion of a media type&#039;s essence.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-        <section class="phpdocumentor-description"><p>e.g, if given 'text/plain', it will return 'text'.</p>
-</section>
-
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="classes/Neoncitylights-MediaType-MediaType.html#method_getType#tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">see</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><a href="https://mimesniff.spec.whatwg.org/#type">https://mimesniff.spec.whatwg.org/#type</a></span>
-                                        
-                                             
-                                    </dd>
-                                            </dl>
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_isArchive">
         isArchive()
         <a href="classes/Neoncitylights-MediaType-MediaType.html#method_isArchive" class="headerlink"><i class="fas fa-link"></i></a>
@@ -897,9 +726,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.147" class="phpdocumentor-element-found-in__source" data-line="147" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.123" class="phpdocumentor-element-found-in__source" data-line="123" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -948,9 +777,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">113</span>
+    <span class="phpdocumentor-element-found-in__line">89</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.113" class="phpdocumentor-element-found-in__source" data-line="113" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.89" class="phpdocumentor-element-found-in__source" data-line="89" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
         <p class="phpdocumentor-summary">https://mimesniff.spec.whatwg.org/#audio-or-video-mime-type</p>
@@ -985,9 +814,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.122" class="phpdocumentor-element-found-in__source" data-line="122" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.98" class="phpdocumentor-element-found-in__source" data-line="98" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1036,9 +865,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">166</span>
+    <span class="phpdocumentor-element-found-in__line">142</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.166" class="phpdocumentor-element-found-in__source" data-line="166" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.142" class="phpdocumentor-element-found-in__source" data-line="142" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1087,9 +916,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">106</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.106" class="phpdocumentor-element-found-in__source" data-line="106" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.82" class="phpdocumentor-element-found-in__source" data-line="82" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1138,9 +967,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">182</span>
+    <span class="phpdocumentor-element-found-in__line">158</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.182" class="phpdocumentor-element-found-in__source" data-line="182" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.158" class="phpdocumentor-element-found-in__source" data-line="158" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1189,9 +1018,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">212</span>
+    <span class="phpdocumentor-element-found-in__line">188</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.212" class="phpdocumentor-element-found-in__source" data-line="212" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.188" class="phpdocumentor-element-found-in__source" data-line="188" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1240,9 +1069,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">149</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.173" class="phpdocumentor-element-found-in__source" data-line="173" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.149" class="phpdocumentor-element-found-in__source" data-line="149" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1291,9 +1120,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">155</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.155" class="phpdocumentor-element-found-in__source" data-line="155" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.131" class="phpdocumentor-element-found-in__source" data-line="131" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1342,9 +1171,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">115</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.139" class="phpdocumentor-element-found-in__source" data-line="139" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.115" class="phpdocumentor-element-found-in__source" data-line="115" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1393,9 +1222,9 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/MediaType.php"><a href="files/src-mediatype.html"><abbr title="src/MediaType.php">MediaType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">247</span>
+    <span class="phpdocumentor-element-found-in__line">223</span>
 
-            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.247" class="phpdocumentor-element-found-in__source" data-line="247" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
+            <a href="classes/Neoncitylights-MediaType-MediaType.html#source-view.223" class="phpdocumentor-element-found-in__source" data-line="223" data-modal="source-view" data-src="files/src/MediaType.php.txt"></a>
     </aside>
 
     
@@ -1550,10 +1379,7 @@ given parameter is 'charset', it will return 'UTF-8'.</p>
                                             <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method___construct">__construct()</a></li>
                                             <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method___toString">__toString()</a></li>
                                             <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_getEssence">getEssence()</a></li>
-                                            <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_getParameters">getParameters()</a></li>
                                             <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_getParameterValue">getParameterValue()</a></li>
-                                            <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_getSubType">getSubType()</a></li>
-                                            <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_getType">getType()</a></li>
                                             <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_isArchive">isArchive()</a></li>
                                             <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_isAudioOrVideo">isAudioOrVideo()</a></li>
                                             <li><a href="classes/Neoncitylights-MediaType-MediaType.html#method_isFont">isFont()</a></li>
