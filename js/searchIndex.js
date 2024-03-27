@@ -28,7 +28,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisAudioOrVideo\u0028\u0029",
             "name": "isAudioOrVideo",
-            "summary": "https\u003A\/\/mimesniff.spec.whatwg.org\/\u0023audio\u002Dor\u002Dvideo\u002Dmime\u002Dtype",
+            "summary": "",
             "url": "classes/Neoncitylights-MediaType-MediaType.html#method_isAudioOrVideo"
         },                {
             "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AisFont\u0028\u0029",
