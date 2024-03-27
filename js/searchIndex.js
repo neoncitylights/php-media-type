@@ -76,6 +76,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Neoncitylights-MediaType-MediaType.html#method_minimize"
         },                {
+            "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003AsubtypeMatchesOneOf\u0028\u0029",
+            "name": "subtypeMatchesOneOf",
+            "summary": "",
+            "url": "classes/Neoncitylights-MediaType-MediaType.html#method_subtypeMatchesOneOf"
+        },                {
             "fqsen": "\\Neoncitylights\\MediaType\\MediaType\u003A\u003A__toString\u0028\u0029",
             "name": "__toString",
             "summary": "",
